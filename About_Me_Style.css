@@ -1,3 +1,6 @@
-.bgimage1{
-    background-image: url("/Information/unnamed.jpg");
+ul{
+    list-style-type: none;
+    box-sizing: border-box;
+    background-color: black;
+    font-family: cursive;
 }
