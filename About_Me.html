@@ -7,6 +7,7 @@
     </head>
     <body>
     <!-- Navigation Bar within Page-->
+        <nav>
             <ul>
                 <li><a title="Home" href="#Home"><i class="material-icons">home</i></a></li>
                 <li><a title="Education" href="#Education"><i class="material-icons">book</i></a></li>
@@ -14,12 +15,13 @@
                 <li><a title="Ambitions" href="#Ambitions"><i class="material-icons">emoji_people</i></a></li>
                 <li><a title="Contact Me" href="#Contact_Me"><i class="material-icons">person_outline</i></a></li>
             </ul>
+        </nav>
     <!-- Background Images-->
     <section class="wrapper">
         <!-- Home -->
         <div id="Home" class="bg img1">
             <article class="info">
-                <h2>Welcome to my Homepage</h2>
+                <h2><i>Welcome to my Homepage</i></h2>
                 <p>Name : Atharva G Telange</p>
                 <p>Occupation: Student</p>
                 <img src="Information/Pic.jpg" alt="Atharva Telange">
@@ -28,6 +30,7 @@
         <div class="scroll"></div>
         <!-- Education-->
         <div id="Education" class="bg img2">
+            <h3>My Education</h3>
             <table class="edu_details">
                 <tr>
                     <th>Year</th>
@@ -36,32 +39,59 @@
                 <tr>
                     <td>2018 - Present</td>
                     <td>
-                        <p>IIT Bombay</p>
+                        <p><b>IIT Bombay</b></p>
+                        <p>
+                            Life at IIT Bombay is very amazing. It depends on who you want to be.
+                            
+                        </p>
                     </td>
                 </tr>
                 <tr>
                     <td>2016- 2018</td>
                     <td>
-                        <p>Birla College of Arts, Science and Commerce</p>
+                        <p><b>Birla College of Arts, Science and Commerce</b></p>
+                        <p>
+
+                        </p>
                     </td>
                 </tr>
                 <tr>
                     <td>2005 - 2016</td>
                     <td>
-                        <p>Rita Memorial High School</p>
+                        <p><b>Rita Memorial High School</b></p>
+                        <p>
+
+                        </p>
                     </td>
                 </tr>
             </table>
         </div>
         <div class="scroll"></div>
         <!-- Hobbies -->
-        <div id="Hobbies" class="bg img3"></div>
+        <div id="Hobbies" class="bg img3">
+            <h3>My Hobbies</h3>
+            <div class="hob_img">
+                <img src="Information/code.jpg" title="Coding">
+                <img src="Information/football.jpg" title="Football">
+                <img src="Information/Reading.jpg" title="Reading Books">
+            </div>
+        </div>
         <div class="scroll"></div>
         <!-- Ambition -->
-        <div id="Ambitions" class="bg img4"></div>
+        <div id="Ambitions" class="bg img4">
+            <h3>My Ambition</h3>
+            <img src="Information/web-designer.jpg" title="Web_Designer">
+        </div>
         <!-- Contact Me -->
         <div id="Contact_Me">
             <footer>For more information</footer>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your Name">
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email address">
+                <input type="submit" value="Submit"> 
+            </form>
         </div>
         </section>
     </body>
